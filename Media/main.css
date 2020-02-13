@@ -386,7 +386,7 @@ img {
     font-size: 20px;
     line-height: 20px;
 }
-.red-bg, .white-bg {
+.red-bg, .white-bg, .white-bg a {
     font-family: "Roboto Condensed", sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -405,6 +405,14 @@ img {
 .white-bg {
     color: #f72210;
 }
+.white-bg a {
+    font-size: 25px;
+    color: #f72210;
+}
+.white-bg a:hover {
+    color: #f72210;
+    text-decoration: none;
+}
 .bottom-img {
     height: 250px;
     width: 100%;
@@ -415,6 +423,9 @@ img {
 }
 .no-margin-bot {
     margin-bottom: 0;
+}
+.no-margin {
+    margin: 0;
 }
 .slideshow {
     background-color: white;
@@ -427,12 +438,66 @@ img {
     width: 100%;
     padding: 0;
 }
-
-
-
-
-
-
+.link-padding {
+    padding: 0 12px;
+}
+.full-width {
+    width: 100%;
+}
+.bottom-btn {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    padding: 5px 8px;
+    margin: 4px 3px;
+    margin-left: 0;
+    color: white;
+    background-color: #f72210;
+}
+.bottom-btn:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #DF2E0F;
+}
+.gray-bg {
+    background-color: #F4F5F6;
+    padding: 35px 0 0 0;
+}
+.subscribe-bot h3{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    color: black;
+    padding-right: 15px;
+}
+.subscribe-bot .relative img {
+    position: absolute;
+    width: 65%;
+    height: 95%;
+}
+.subscribe-bot .relative {
+    height: 240px;
+    margin-left: 35px;
+}
+.subscribe-bot .relative img:nth-child(2) {
+    right: 0;
+    bottom: 0;
+}
+.phone-bg {
+    background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) -110px 0 no-repeat;
+    height: 310px;
+    width: 100%;
+    background-size: cover;
+}
+.phone-bg div {
+    background-color: white;
+    height: 100%;
+}
+.newsletter {
+    padding-left: 17px;
+}
 
 
 
