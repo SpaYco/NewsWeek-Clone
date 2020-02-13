@@ -1,5 +1,5 @@
 // this script will determine the date and write it on the #date ID 
-        const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+      const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
         "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
       const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
       const d = new Date();
