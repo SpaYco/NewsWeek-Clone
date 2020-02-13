@@ -498,12 +498,61 @@ img {
 .newsletter {
     padding-left: 17px;
 }
+.footer-brand svg{
+    fill: #f72210;
+    width: 236px;
+}
+.footer-brand span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    color: rgb(102, 102, 102);
+}
+a:hover .fa-facebook-square::before{
+    color: #3B5997;
+}
+a:hover .fa-twitter::before {
+    color: #44A1F2;
+}
+a:hover .fa-instagram-square::before {
+    color: #405DE6;
+}
+a:hover .fa-tumblr::before {
+    color: #536274;
+}
+a:hover .fa-linkedin-in::before  {
+    color: #3177B5;
+}
 
-
-
-
-
-
+.fab::before{
+    font-size: 25px;
+    color:  #666666;
+}
+.footer-links {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color:  rgb(102, 102, 102);
+    line-height: 15px;
+}
+.footer-links * {
+    display: inline-block;
+    margin: 5px;
+}
+.footer-links b {
+    font-weight: 700;
+}
+.footer-links a {
+    color: rgb(102, 102, 102);
+}
+.footer-links a:hover {
+    color: #272727;
+    text-decoration: none;
+}
+.footer-margin-right {
+    margin-right: 12%;
+}
 
 
 
