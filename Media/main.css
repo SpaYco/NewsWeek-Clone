@@ -11,12 +11,6 @@ body {
   overflow-x: hidden;
 }
 
-/* a fix for .row, it uses -15 on margin left and right, which causes problems */
-.row {
-  margin-left: 0;
-  margin-right: 0;
-}
-
 header svg {
   fill: white;
   height: 60px;
@@ -25,7 +19,6 @@ header svg {
 .my-header {
   padding: 5px 15px;
   background-color: #f72210;
-  color: white;
   max-width: 100%;
 }
 
@@ -33,49 +26,33 @@ header svg {
   background-color: #f72210;
 }
 
-.navbar {
-  padding: 0;
-}
-
 .account * {
   padding: 2px;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 18px;
-  font-weight: 700;
 }
 
 #date {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 16px;
   line-height: 34px;
-  margin: 0;
 }
 
 .signin {
-  color: white;
-  text-decoration: none;
   padding: 2px;
   margin: 1px 5px;
 }
 
 .subscribe {
-  background-color: white;
   color: #f72210;
-  text-decoration: none;
   padding: 2px;
   margin: 1px 3px;
 }
 
 .subscribe:hover {
-  background-color: white;
   color: #f72210;
-  text-decoration: none;
 }
 
-.signin:hover {
-  text-decoration: none;
-  color: white;
-}
 
 .mynav {
   width: 96%;
@@ -95,18 +72,16 @@ header svg {
 }
 
 .nav-item {
-  padding: 0 0.8vw;
-  text-align: center;
+  padding-left: 0.8vw;
+  padding-right: 0.8vw;
   border-left: 1px solid gray;
   line-height: 18px;
   max-width: 15%;
 }
 
 .nav-item a {
-  color: black;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 18px;
-  font-weight: 700;
 }
 
 .footer-links a {
@@ -118,16 +93,12 @@ header svg {
 .white-bg a {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 16px;
-  font-weight: 700;
   line-height: 26px;
-  padding: 0 8px;
+  padding-left: 8px;
+  padding-right: 8px;
   margin: 4px 3px;
-  margin-left: 0;
 }
 
-.red-bg a {
-  color: inherit;
-}
 
 .white-bg {
   color: #f72210;
@@ -142,16 +113,13 @@ header svg {
   color: #f72210;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 16px;
-  font-weight: 700;
   line-height: 33px;
 }
 
 .people a,
 .people p {
-  color: black;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 17px;
-  font-weight: 700;
   line-height: 21px;
 }
 
@@ -159,19 +127,15 @@ header svg {
 .floated-stories h3 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 17px;
-  font-weight: 700;
   line-height: 20px;
-  color: black;
 }
 
 .people a:hover {
-  color: #f72210;
-  text-decoration: none;
+  color: #f72210 !important;
 }
 
 .nav-item a:hover {
   color: #f72210;
-  text-decoration: none;
 }
 
 .nav-item input {
@@ -199,31 +163,28 @@ img {
 
 .myFirstContainer {
   max-width: 100%;
-  padding: 0 2%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .title {
   font-family: "Roboto Condensed", sans-serif;
-  font-weight: 700;
   font-size: 16px;
   color: rgba(3, 3, 3, 0.4);
 }
 
 #featured-stories {
-  padding: 0 10px;
+  padding-right: 10px;
   padding-left: 5px;
 }
 
 .news-title {
-  color: black;
   font-family: "Roboto Condensed", sans-serif;
-  font-weight: 700;
   font-size: 24px;
   line-height: 24px;
 }
 
 .news-title:hover {
-  color: black;
   text-decoration-color: #f72210;
 }
 
@@ -250,12 +211,10 @@ img {
   position: absolute;
   left: 0;
   bottom: 0;
-  margin: 0;
   padding: 5px 9px;
   color: #f72210;
   background-color: #f4f5f6;
   font-family: "Roboto Condensed", sans-serif;
-  font-weight: 700;
 }
 
 .f-img-p {
@@ -284,7 +243,6 @@ img {
   font-weight: 400;
   line-height: 22px;
   color: rgb(39, 39, 39);
-  text-decoration: none;
 }
 
 .contained-link {
@@ -307,7 +265,6 @@ img {
   background-color: #272727;
   display: inline-block;
   vertical-align: middle;
-  text-decoration: none;
 }
 
 .tiny-gray-text {
@@ -322,11 +279,6 @@ img {
   vertical-align: middle;
 }
 
-hr {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
 .more-stories hr {
   clear: both;
 }
@@ -338,9 +290,7 @@ hr {
 .subscribe-bot h3 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 24px;
-  font-weight: 700;
   line-height: 28px;
-  color: black;
   padding-right: 15px;
 }
 
@@ -361,18 +311,11 @@ hr {
   height: 63px;
 }
 
-.people div {
-  padding: 0;
-}
-
 .people p {
   font-size: 14px;
   color: rgb(85, 85, 85);
 }
 
-.no-margin-top {
-  margin-top: 0;
-}
 
 .people img {
   max-height: 90px;
@@ -390,11 +333,9 @@ hr {
 .blue,
 .blue p {
   color: lightskyblue;
-  font-weight: 700;
   position: absolute;
   left: 0;
   bottom: 0;
-  margin: 0;
   padding: 5px 9px;
   background-color: #f4f5f6;
   font-family: "Roboto Condensed", sans-serif;
@@ -408,32 +349,23 @@ hr {
   position: absolute;
   bottom: 0;
   left: 0;
-  margin: 0;
-  padding: 0 5px;
+  padding-left: 5px;
+  padding-right: 5px;
   background-color: #c2d4d7;
-}
-
-.bottom-left-sticker a:hover {
-  text-decoration: none;
 }
 
 .see-all {
   width: 100%;
-  text-align: center;
   display: block;
   padding: 10px;
   background-color: #f4f5f6;
-  color: black;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 18px;
-  font-weight: 700;
   line-height: 18px;
 }
 
 .see-all:hover {
   background-color: #dbdcdd;
-  color: black;
-  text-decoration: none;
 }
 
 .bottom-titles {
@@ -463,36 +395,18 @@ hr {
 }
 
 .red-bg {
-  color: white;
   background-color: #f72210;
 }
 
 .white-bg a:hover {
   color: #f72210;
-  text-decoration: none;
 }
 
 .bottom-img {
   height: 250px;
   width: 100%;
-  padding: 0;
 }
 
-.nopadding-container {
-  padding: 0;
-}
-
-.no-margin-bot {
-  margin-bottom: 0;
-}
-
-.no-margin {
-  margin: 0;
-}
-
-.slideshow {
-  background-color: white;
-}
 
 .slideshow img {
   height: 52px;
@@ -501,11 +415,11 @@ hr {
 
 .bottom-img-width {
   width: 100%;
-  padding: 0;
 }
 
 .link-padding {
-  padding: 0 12px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .full-width {
@@ -515,18 +429,13 @@ hr {
 .bottom-btn {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 16px;
-  font-weight: 700;
   line-height: 26px;
   padding: 5px 8px;
   margin: 4px 3px;
-  margin-left: 0;
-  color: white;
   background-color: #f72210;
 }
 
 .bottom-btn:hover {
-  text-decoration: none;
-  color: white;
   background-color: #df2e0f;
 }
 
@@ -543,7 +452,6 @@ hr {
 
 .subscribe-bot .relative {
   height: 240px;
-  margin-left: 35px;
 }
 
 .subscribe-bot .relative img:nth-child(2) {
@@ -560,7 +468,6 @@ hr {
 }
 
 .phone-bg > div {
-  background-color: white;
   height: 100%;
 }
 
@@ -619,13 +526,8 @@ a:hover .fa-linkedin-in::before {
   margin: 5px;
 }
 
-.footer-links b {
-  font-weight: 700;
-}
-
 .footer-links a:hover {
   color: #272727;
-  text-decoration: none;
 }
 
 .footer-margin-right {
@@ -638,7 +540,6 @@ a:hover .fa-linkedin-in::before {
   }
 
   #top-story {
-    padding: 0;
     position: sticky;
     top: 0;
     bottom: 0;
@@ -659,10 +560,6 @@ a:hover .fa-linkedin-in::before {
 
   header svg {
     height: 20px;
-  }
-
-  header hr {
-    display: none;
   }
 
   .f-img {
@@ -721,11 +618,15 @@ a:hover .fa-linkedin-in::before {
 
   .people img {
     min-height: 140px;
+
+    max-height: none;
   }
 
   .circle {
-    max-height: 90px !important;
-    min-height: 90px !important;
+    max-height: 65px !important;
+    min-height: 65px !important;
+    max-width: 65px !important;
+    min-width: 65px !important;
   }
 
   .phone-bg {
@@ -748,5 +649,8 @@ a:hover .fa-linkedin-in::before {
   .special-borders {
     max-width: 90vw;
     margin: 0 auto;
+  }
+  .small-mobile-text {
+    font-size: 12px !important;
   }
 }
