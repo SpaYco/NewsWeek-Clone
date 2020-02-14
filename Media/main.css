@@ -53,7 +53,6 @@ header svg {
   color: #f72210;
 }
 
-
 .mynav {
   width: 96%;
   padding-top: 15px;
@@ -98,7 +97,6 @@ header svg {
   padding-right: 8px;
   margin: 4px 3px;
 }
-
 
 .white-bg {
   color: #f72210;
@@ -316,7 +314,6 @@ img {
   color: rgb(85, 85, 85);
 }
 
-
 .people img {
   max-height: 90px;
 }
@@ -406,7 +403,6 @@ img {
   height: 250px;
   width: 100%;
 }
-
 
 .slideshow img {
   height: 52px;
@@ -618,7 +614,6 @@ a:hover .fa-linkedin-in::before {
 
   .people img {
     min-height: 140px;
-
     max-height: none;
   }
 
@@ -650,6 +645,7 @@ a:hover .fa-linkedin-in::before {
     max-width: 90vw;
     margin: 0 auto;
   }
+
   .small-mobile-text {
     font-size: 12px !important;
   }
