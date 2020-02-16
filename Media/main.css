@@ -570,12 +570,6 @@ a:hover .fa-linkedin-in::before {
     height: 100%;
   }
 
-  .phone-bg {
-    height: 100%;
-    width: 95vw;
-    background-size: contain;
-  }
-
   .phone-bg div {
     height: 310px;
   }
@@ -601,6 +595,23 @@ a:hover .fa-linkedin-in::before {
     max-width: 40vw;
     margin: 0 auto;
   }
+
+  .phone-bg {
+    background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) 0 -110px no-repeat;
+    border: 1px solid #00000021;
+    height: 450px;
+    max-width: 95vw;
+    background-size: cover;
+  }
+
+  .phone-bg > div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60%;
+    width: 100%;
+  }
 }
 
 @media all and (max-width: 768px) {
@@ -624,23 +635,6 @@ a:hover .fa-linkedin-in::before {
     min-width: 65px !important;
   }
 
-  .phone-bg {
-    background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) 0 -110px no-repeat;
-    height: 450px;
-    width: 100%;
-    background-size: 100% 90%;
-    border: 1px solid #00000021;
-  }
-
-  .phone-bg > div {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 60%;
-    width: 100%;
-  }
-
   .special-borders {
     max-width: 90vw;
     margin: 0 auto;
@@ -648,5 +642,10 @@ a:hover .fa-linkedin-in::before {
 
   .small-mobile-text {
     font-size: 12px !important;
+  }
+
+  .subscribe,
+  .signin {
+    font-size: 13px;
   }
 }
