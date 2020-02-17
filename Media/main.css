@@ -289,7 +289,6 @@ img {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 24px;
   line-height: 28px;
-  padding-right: 15px;
 }
 
 .floated-stories a:hover,
@@ -530,6 +529,11 @@ a:hover .fa-linkedin-in::before {
   margin-right: 12%;
 }
 
+.arrow {
+  display: inline;
+  background-color: transparent;
+}
+
 @media all and (min-width: 992px) {
   .navbar-toggler {
     display: none !important;
@@ -647,9 +651,18 @@ a:hover .fa-linkedin-in::before {
   .subscribe,
   .signin {
     font-size: 11px;
+    max-height: 25px;
   }
 
   .floated-stories img {
     height: 50%;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .subscribe-img {
+    max-height: 170px;
   }
 }
